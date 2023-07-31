@@ -1,0 +1,22 @@
+Package: BFZINBZIP
+Type: Package
+Title: Function to compute log(Bayes factor) for zero inflated models under Jefferey's prior
+Version: 0.4.21
+Date: 2023-04-20
+Authors@R: person("Zabala", "Filipe J.", email = "filipezabala@gmail.com", role = c("cre","aut"))
+Maintainer: Zabala Filipe J. <filipezabala@gmail.com>
+URL: 
+Description: This function computes log(bayes Factor) of the following models: 
+             (i) Zero Inflated Negative Binomial Model vs. Zero Inflated Poisson Model
+             (ii) Zero Inflated Negative Binomial Model vs. Negative Binomial Model
+             (iii) Zero Inflated Poisson Model vs. Poisson Model
+             (iv) Negative Binomial Model vs. Poisson Model.
+Depends: R (>= 4.0.0)
+Imports: stats, matrixStats, knitr
+Suggests: 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+VignetteBuilder: knitr
+Language: en-US
